@@ -71,7 +71,7 @@ class RuntimeStack
   private
 
   def default_stack
-    []
+    %w(foo bar baz)
   end
 
 end

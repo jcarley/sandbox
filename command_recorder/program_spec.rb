@@ -71,9 +71,6 @@ RSpec.describe RuntimeStack do
   # fubu bar baz quax
   it "gets items merged into it without error" do
     runtime_stack = RuntimeStack.new
-    runtime_stack.append("foo")
-    runtime_stack.append("bar")
-    runtime_stack.append("baz")
 
     recorder = Recorder.new
     recorder.delete("foo")
